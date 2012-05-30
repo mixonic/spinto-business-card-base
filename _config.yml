@@ -1,25 +1,26 @@
 settings:
   facebook_url:
-    value: 'http://facebook.com/matthew.beale'
-    description:  
+    value: http://facebook.com/matthew.beale
+    description: 
   gitHub_url:
-    value: 'http://facebook.com/matthew.beale'
-    description:  
+    value: https://github.com/mixonic
+    description: 
   google_plus_url:
-    value: 'http://facebook.com/matthew.beale'
-    description:  
+    value: ''
+    description: 
   instagram_url:
-    value: 'http://facebook.com/matthew.beale'
-    description:  
+    value: ''
+    description: 
   linkedIn_url:
-    value: 'http://facebook.com/matthew.beale'
-    description:  
+    value: http://www.linkedin.com/in/matthewbeale
+    description: 
   tumblr_url:
-    value: 'http://facebook.com/matthew.beale'
-    description:  
+    value: ''
+    description: 
   twitter_url:
-    value: 'http://facebook.com/matthew.beale'
-    description:  
+    value: http://twitter.com/mixonic
+    description: 
   youtube_url:
-    value: 'http://facebook.com/matthew.beale'
-    description:  
+    value: ''
+    description: 
+title: Matthew Beale
