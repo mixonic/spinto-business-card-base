@@ -2,7 +2,7 @@ settings:
   facebook_url:
     value: http://facebook.com/matthew.beale
     description: 
-  gitHub_url:
+  github_url:
     value: https://github.com/mixonic
     description: 
   google_plus_url:
@@ -11,7 +11,7 @@ settings:
   instagram_url:
     value: ''
     description: 
-  linkedIn_url:
+  linkedin_url:
     value: http://www.linkedin.com/in/matthewbeale
     description: 
   tumblr_url:
