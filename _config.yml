@@ -3,24 +3,24 @@ settings:
     value: http://facebook.com/matthew.beale
     description: 
   github_url:
-    value: https://github.com/mixonic
+    value: 
     description: 
   google_plus_url:
-    value: ''
+    value: https://github.com/mixonic
     description: 
   instagram_url:
-    value: ''
+    value: 
     description: 
   linkedin_url:
     value: http://www.linkedin.com/in/matthewbeale
     description: 
   tumblr_url:
-    value: ''
+    value: 
     description: 
   twitter_url:
     value: http://twitter.com/mixonic
     description: 
   youtube_url:
-    value: ''
+    value: 
     description: 
 title: Matthew Beale
