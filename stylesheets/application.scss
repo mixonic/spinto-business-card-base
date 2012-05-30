@@ -1,0 +1,144 @@
+---
+---
+
+@import "bourbon/bourbon";
+
+$gw-column: 100px;
+$gw-gutter: 40px;
+
+* { -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  @include box-shadow(inset 0 0 12px 0 rgba(0,0,0,1.0));
+}
+
+body {
+  background: #030303;
+  background-repeat: repeat;
+  background-image: url("/img/bg.png");
+  font-size: 14px;
+  text-rendering: optimizeLegibility;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.container {
+  position: relative;
+  margin: 0 auto;
+  padding: 0;
+  width: grid-width(3);
+  height: 100%;
+}
+
+.floater {
+  margin-bottom: -(grid-width(3) * (1/1.8) * 0.5);
+  width: grid-width(3);
+  float: left;
+  height: 50%;
+}
+
+#card {
+  background: #f7f0de;
+  background-repeat: none;
+  background-image: url("/img/cardstock.png");
+  @include clearfix;
+  @include box-shadow(0 0 12px 0 rgba(0,0,0,1.0));
+  text-shadow: 0 1px 0 #faf7ee;
+  @include border-radius(1px);
+  width: grid-width(3);
+  padding: 0 15px;
+  font-family: Questrial, cursive;
+  line-height: 10px;
+  clear: both;
+  height: (grid-width(3) * (1/1.8));
+  position: relative;
+}
+
+h1 {
+  font-size: 27px;
+  font-family: 'Poiret One', cursive;
+  line-height: 20px;
+  text-shadow: 0 0px 0 #faf7ee;
+  float: left;
+}
+
+a.icon {
+  text-decoration: none;
+  display: block;
+  float: left;
+  padding-right: 3px;
+  padding-top: 2px;
+}
+a.icon:hover {
+  padding-top: 0;
+  @include transition (all 0.1s ease);
+}
+
+#contact-details {
+  clear: left;
+  height: (grid-width(3) * (1/1.8)) - 87;
+}
+
+.corner-image {
+  float: right;
+  margin: 12px 0 0 0;
+  border: 1px solid #e8e8e8;
+  @include box-shadow(0 0 2px 1px rgba(100,100,100,0.7));
+}
+
+@media screen and (max-width: 380px) {
+
+  .container {
+    width: auto;
+  }
+
+  .floater {
+    display: none;
+  }
+
+  h1 {
+    float: none;
+    text-align: center;
+  }
+
+  .corner-image {
+    float: none;
+    margin: 0 auto 4px;
+    display: block;
+  }
+
+  #card {
+    width: auto;
+    height: auto;
+    margin: 10px;
+  }
+
+  #contact-details {
+    clear: none;
+    height: auto;
+    text-align: center;
+  }
+
+  #icons_wrapper {
+    padding: 2px 0 10px 8px;
+  }
+
+  #icons {
+    @include clearfix;
+    position: relative;
+    margin: 0 auto;
+    width: 69px;
+  }
+  
+  a.icon {
+    padding-right: 7px;
+    padding-top: 6px;
+  }
+
+}
